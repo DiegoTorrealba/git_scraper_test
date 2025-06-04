@@ -1,304 +1,544 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1748933267000,
+    "generated": 1749019554000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.14.1",
-    "count": 52
+    "count": 43
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.3,
-        "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748929235805,
-        "updated": 1748929858040,
+        "mag": 3.34,
+        "place": "50 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1749015701820,
+        "updated": 1749017360790,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhkm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhkm.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484423",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484423.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 168,
-        "net": "us",
-        "code": "6000qhkm",
-        "ids": ",us6000qhkm,",
-        "sources": ",us,",
+        "sig": 172,
+        "net": "pr",
+        "code": "71484423",
+        "ids": ",pr71484423,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.257,
-        "rms": 0.35,
-        "gap": 59,
-        "magType": "ml",
+        "nst": 23,
+        "dmin": 0.4317,
+        "rms": 0.2,
+        "gap": 258,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 3.3 - 14 km NNW of Stanley, Idaho"
+        "title": "M 3.3 - 50 km NNW of Charlotte Amalie, U.S. Virgin Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.0075,
-          44.3361,
-          14.592
+          -65.1048333333333,
+          18.7626666666667,
+          7.85
         ]
       },
-      "id": "us6000qhkm"
+      "id": "pr71484423"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.5,
-        "place": "15 km NNW of Stanley, Idaho",
-        "time": 1748927546656,
-        "updated": 1748928961438,
+        "mag": 5.2,
+        "place": "156 km WSW of Fakfak, Indonesia",
+        "time": 1749008586589,
+        "updated": 1749009733040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhkk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhkk.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhub",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhub.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.284,
+        "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 188,
+        "sig": 416,
         "net": "us",
-        "code": "6000qhkk",
-        "ids": ",us6000qhkk,",
+        "code": "6000qhub",
+        "ids": ",us6000qhub,",
         "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,shakemap,",
-        "nst": 30,
-        "dmin": 0.266,
-        "rms": 0.53,
-        "gap": 59,
-        "magType": "ml",
+        "types": ",origin,phase-data,",
+        "nst": 101,
+        "dmin": 1.361,
+        "rms": 1,
+        "gap": 28,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 3.5 - 15 km NNW of Stanley, Idaho"
+        "title": "M 5.2 - 156 km WSW of Fakfak, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.0141,
-          44.3432,
-          12.821
+          130.9669,
+          -3.3851,
+          10
         ]
       },
-      "id": "us6000qhkk"
+      "id": "us6000qhub"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.53,
+        "place": "3 km SSW of Guánica, Puerto Rico",
+        "time": 1749004925790,
+        "updated": 1749005626790,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484403",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484403.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 98,
+        "net": "pr",
+        "code": "71484403",
+        "ids": ",pr71484403,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.03001,
+        "rms": 0.18,
+        "gap": 210,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 3 km SSW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.923,
+          17.9453333333333,
+          10.62
+        ]
+      },
+      "id": "pr71484403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1749004781193,
+        "updated": 1749005711040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhu1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhu1.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000qhu1",
+        "ids": ",us6000qhu1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 62,
+        "dmin": 2.835,
+        "rms": 1.21,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.7056,
+          29.6234,
+          126.201
+        ]
+      },
+      "id": "us6000qhu1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.62,
+        "place": "10 km NE of Pāhala, Hawaii",
+        "time": 1749001397530,
+        "updated": 1749004116040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74687627",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74687627.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 106,
+        "net": "hv",
+        "code": "74687627",
+        "ids": ",us6000qhts,hv74687627,",
+        "sources": ",us,hv,",
+        "types": ",origin,phase-data,",
+        "nst": 61,
+        "dmin": 0.03348,
+        "rms": 0.119999997,
+        "gap": 75,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.6 - 10 km NE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.408493041992,
+          19.2695007324219,
+          33.060001373291
+        ]
+      },
+      "id": "hv74687627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.78,
+        "place": "2 km SSW of Indios, Puerto Rico",
+        "time": 1748994359650,
+        "updated": 1748995499480,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484378",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484378.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 119,
+        "net": "pr",
+        "code": "71484378",
+        "ids": ",pr71484378,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 0.04964,
+        "rms": 0.12,
+        "gap": 180,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 2 km SSW of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8271666666667,
+          17.9726666666667,
+          16.62
+        ]
+      },
+      "id": "pr71484378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "western Xizang",
+        "time": 1748992386767,
+        "updated": 1749003699040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhtc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhtc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000qhtc",
+        "ids": ",us6000qhtc,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 85,
+        "dmin": 7.909,
+        "rms": 0.52,
+        "gap": 78,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - western Xizang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.857,
+          33.4981,
+          10
+        ]
+      },
+      "id": "us6000qhtc"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "15 km NNW of Stanley, Idaho",
-        "time": 1748926436251,
-        "updated": 1748927091040,
+        "place": "16 km NNW of Stanley, Idaho",
+        "time": 1748990258952,
+        "updated": 1748994981272,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhk9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhk9.geojson",
-        "felt": null,
-        "cdi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhsy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhsy.geojson",
+        "felt": 1,
+        "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 112,
         "net": "us",
-        "code": "6000qhk9",
-        "ids": ",us6000qhk9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.268,
-        "rms": 0.5,
+        "code": "6000qhsy",
+        "ids": ",us6000qhsy,mb90092938,",
+        "sources": ",us,mb,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.275,
+        "rms": 0.52,
         "gap": 59,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 15 km NNW of Stanley, Idaho"
+        "title": "M 2.7 - 16 km NNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.016,
-          44.3447,
-          10.836
+          -115.0193,
+          44.3521,
+          15.941
         ]
       },
-      "id": "us6000qhk9"
+      "id": "us6000qhsy"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.8,
-        "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748925539601,
-        "updated": 1748928765020,
+        "mag": 3.71,
+        "place": "5 km SW of Tallaboa, Puerto Rico",
+        "time": 1748989494980,
+        "updated": 1748997355329,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhk7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhk7.geojson",
-        "felt": 4,
-        "cdi": 2.7,
-        "mmi": 3.52,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2025154000",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr2025154000.geojson",
+        "felt": 15,
+        "cdi": 4.1,
+        "mmi": 3.279,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 223,
+        "sig": 218,
+        "net": "pr",
+        "code": "2025154000",
+        "ids": ",us6000qhsu,pr2025154000,",
+        "sources": ",us,pr,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 25,
+        "dmin": 0.1309,
+        "rms": 0.24,
+        "gap": 163,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.7 - 5 km SW of Tallaboa, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.749,
+          17.9613,
+          8
+        ]
+      },
+      "id": "pr2025154000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "74 km N of Tocopilla, Chile",
+        "time": 1748988587620,
+        "updated": 1748989359040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhsr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhsr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
         "net": "us",
-        "code": "6000qhk7",
-        "ids": ",us6000qhk7,",
+        "code": "6000qhsr",
+        "ids": ",us6000qhsr,",
         "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 30,
-        "dmin": 0.254,
-        "rms": 0.45,
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.42,
+        "rms": 1,
+        "gap": 176,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 74 km N of Tocopilla, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3303,
+          -21.4292,
+          28.449
+        ]
+      },
+      "id": "us6000qhsr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "16 km NNW of Stanley, Idaho",
+        "time": 1748978426812,
+        "updated": 1748980027040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhrx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhrx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000qhrx",
+        "ids": ",mb90092883,us6000qhrx,",
+        "sources": ",mb,us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 0.28,
+        "rms": 0.51,
         "gap": 57,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.8 - 14 km NNW of Stanley, Idaho"
+        "title": "M 2.8 - 16 km NNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.9879,
-          44.3394,
-          13.808
+          -115.0124,
+          44.3594,
+          15.195
         ]
       },
-      "id": "us6000qhk7"
+      "id": "us6000qhrx"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.7,
-        "place": "13 km NNW of Stanley, Idaho",
-        "time": 1748924573628,
-        "updated": 1748926723040,
+        "mag": 4.6,
+        "place": "55 km WNW of Te Anau, New Zealand",
+        "time": 1748976906862,
+        "updated": 1748981115040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhk3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhk3.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhrt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhrt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 112,
+        "sig": 326,
         "net": "us",
-        "code": "6000qhk3",
-        "ids": ",us6000qhk3,",
+        "code": "6000qhrt",
+        "ids": ",us6000qhrt,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.254,
-        "rms": 0.92,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.7 - 13 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.012,
-          44.3307,
-          2.367
-        ]
-      },
-      "id": "us6000qhk3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "16 km NNW of Stanley, Idaho",
-        "time": 1748923736571,
-        "updated": 1748924506040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhk1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhk1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "6000qhk1",
-        "ids": ",us6000qhk1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 0.28,
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 24,
+        "dmin": 0.323,
         "rms": 0.63,
-        "gap": 62,
-        "magType": "ml",
+        "gap": 91,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 3.1 - 16 km NNW of Stanley, Idaho"
+        "title": "M 4.6 - 55 km WNW of Te Anau, New Zealand"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.0487,
-          44.3456,
-          14.449
+          167.1259,
+          -45.1423,
+          34.005
         ]
       },
-      "id": "us6000qhk1"
+      "id": "us6000qhrt"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748922928938,
-        "updated": 1748924158040,
+        "mag": 2.71,
+        "place": "9 km SSE of Maria Antonia, Puerto Rico",
+        "time": 1748975716790,
+        "updated": 1748984171400,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhjz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhjz.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484333",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484333.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000qhjz",
-        "ids": ",us6000qhjz,",
-        "sources": ",us,",
+        "sig": 113,
+        "net": "pr",
+        "code": "71484333",
+        "ids": ",pr71484333,",
+        "sources": ",pr,",
         "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.258,
-        "rms": 0.65,
-        "gap": 60,
-        "magType": "ml",
+        "nst": 26,
+        "dmin": 0.07542,
+        "rms": 0.17,
+        "gap": 200,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 14 km NNW of Stanley, Idaho"
+        "title": "M 2.7 - 9 km SSE of Maria Antonia, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.0106,
-          44.3358,
-          6.281
+          -66.8538333333333,
+          17.8978333333333,
+          11.12
         ]
       },
-      "id": "us6000qhjz"
+      "id": "pr71484333"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 2.7,
-        "place": "32 km NW of Valdez, Alaska",
-        "time": 1748922851945,
-        "updated": 1748923809040,
+        "place": "72 km SE of Denali National Park, Alaska",
+        "time": 1748971669835,
+        "updated": 1748979155040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02572qvcga",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02572qvcga.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02572z1pei",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02572z1pei.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -307,38 +547,718 @@
         "tsunami": 0,
         "sig": 112,
         "net": "ak",
-        "code": "02572qvcga",
-        "ids": ",us6000qhjy,ak02572qvcga,",
+        "code": "02572z1pei",
+        "ids": ",us6000qhr4,ak02572z1pei,",
         "sources": ",us,ak,",
         "types": ",origin,phase-data,",
         "nst": null,
         "dmin": null,
-        "rms": 0.35,
+        "rms": 0.48,
         "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.7 - 32 km NW of Valdez, Alaska"
+        "title": "M 2.7 - 72 km SE of Denali National Park, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.8081,
-          61.32,
-          22.4
+          -150.5583,
+          63.1503,
+          115.2
         ]
       },
-      "id": "ak02572qvcga"
+      "id": "ak02572z1pei"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "12 km NNW of Stanley, Idaho",
+        "time": 1748971394437,
+        "updated": 1748985476300,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhr2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhr2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "us",
+        "code": "6000qhr2",
+        "ids": ",mb90092843,us6000qhr2,",
+        "sources": ",mb,us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.238,
+        "rms": 0.46,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 12 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0176,
+          44.3098,
+          12.913
+        ]
+      },
+      "id": "us6000qhr2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.45,
+        "place": "16 km WNW of Rincón, Puerto Rico",
+        "time": 1748970903080,
+        "updated": 1748974658450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484328",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484328.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 92,
+        "net": "pr",
+        "code": "71484328",
+        "ids": ",pr71484328,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.2926,
+        "rms": 0.29,
+        "gap": 290,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 16 km WNW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.405,
+          18.3786666666667,
+          4.76
+        ]
+      },
+      "id": "pr71484328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.5,
+        "place": "15 km NNW of Stanley, Idaho",
+        "time": 1748970415934,
+        "updated": 1748985582466,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhqx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhqx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.459,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 188,
+        "net": "us",
+        "code": "6000qhqx",
+        "ids": ",mb90092823,us6000qhqx,",
+        "sources": ",mb,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 34,
+        "dmin": 0.27,
+        "rms": 0.34,
+        "gap": 58,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.5 - 15 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0113,
+          44.3495,
+          13.274
+        ]
+      },
+      "id": "us6000qhqx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.73,
+        "place": "15 km NNW of Stanley, Idaho",
+        "time": 1748969288280,
+        "updated": 1748986560780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90092813",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90092813.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 115,
+        "net": "mb",
+        "code": "90092813",
+        "ids": ",mb90092813,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 0.2713,
+        "rms": 0.16,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 15 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.022333333333,
+          44.3463333333333,
+          4.69
+        ]
+      },
+      "id": "mb90092813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "44 km W of Adak, Alaska",
+        "time": 1748967730942,
+        "updated": 1748985597040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhrf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhrf.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000qhrf",
+        "ids": ",av93626456,us6000qhrf,",
+        "sources": ",av,us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.053,
+        "rms": 0.27,
+        "gap": 161,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 44 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.2791,
+          51.9067,
+          16.215
+        ]
+      },
+      "id": "us6000qhrf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.7,
+        "place": "45 km W of Adak, Alaska",
+        "time": 1748967654650,
+        "updated": 1748985296040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhrd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhrd.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 112,
+        "net": "us",
+        "code": "6000qhrd",
+        "ids": ",av93043344,us6000qhrd,",
+        "sources": ",av,us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.059,
+        "rms": 0.41,
+        "gap": 160,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 45 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.289,
+          51.905,
+          17.072
+        ]
+      },
+      "id": "us6000qhrd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "99 km SE of Hualien City, Taiwan",
+        "time": 1748967470696,
+        "updated": 1748995885065,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhqp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhqp.geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000qhqp",
+        "ids": ",us6000qhqp,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 78,
+        "dmin": 0.841,
+        "rms": 0.52,
+        "gap": 55,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.4 - 99 km SE of Hualien City, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.202,
+          23.2686,
+          9.601
+        ]
+      },
+      "id": "us6000qhqp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "22 km W of Adak, Alaska",
+        "time": 1748967430166,
+        "updated": 1748986738040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhrc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhrc.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000qhrc",
+        "ids": ",av93043324,us6000qhrc,",
+        "sources": ",av,us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 0.129,
+        "rms": 1.14,
+        "gap": 139,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 22 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.9603,
+          51.9061,
+          10
+        ]
+      },
+      "id": "us6000qhrc"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "83 km S of Finschhafen, Papua New Guinea",
-        "time": 1748922601203,
-        "updated": 1748923576040,
+        "place": "45 km W of Adak, Alaska",
+        "time": 1748967417221,
+        "updated": 1749011226491,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhjx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhjx.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhqn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhqn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 1.625,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000qhqn",
+        "ids": ",us6000qhqn,av93626446,ak02572ydxla,",
+        "sources": ",us,av,ak,",
+        "types": ",moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 157,
+        "dmin": 0.044,
+        "rms": 0.69,
+        "gap": 56,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 5.0 - 45 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.2754,
+          51.7973,
+          15.085
+        ]
+      },
+      "id": "us6000qhqn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "43 km W of Adak, Alaska",
+        "time": 1748967140332,
+        "updated": 1748983565040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhr5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhr5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "6000qhr5",
+        "ids": ",av93626416,us6000qhr5,",
+        "sources": ",av,us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 0.046,
+        "rms": 0.37,
+        "gap": 160,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 43 km W of Adak, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.2681,
+          51.9088,
+          16.644
+        ]
+      },
+      "id": "us6000qhr5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "3 km SSE of Głogów, Poland",
+        "time": 1748966103353,
+        "updated": 1748983088040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhpu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhpu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "6000qhpu",
+        "ids": ",us6000qhpu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 1.294,
+        "rms": 0.91,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 3 km SSE of Głogów, Poland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1024,
+          51.6355,
+          5
+        ]
+      },
+      "id": "us6000qhpu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.51,
+        "place": "15 km NNW of Stanley, Idaho",
+        "time": 1748964766150,
+        "updated": 1748969499740,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90092763",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90092763.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 97,
+        "net": "mb",
+        "code": "90092763",
+        "ids": ",mb90092763,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.2679,
+        "rms": 0.24,
+        "gap": 76,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 15 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0325,
+          44.3385,
+          10.37
+        ]
+      },
+      "id": "mb90092763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "66 km SE of Onagawa Chō, Japan",
+        "time": 1748963734460,
+        "updated": 1748974131040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhpn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhpn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000qhpn",
+        "ids": ",us6000qhpn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 2.824,
+        "rms": 0.61,
+        "gap": 122,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 66 km SE of Onagawa Chō, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.0349,
+          38.064,
+          64.143
+        ]
+      },
+      "id": "us6000qhpn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "16 km NNW of Stanley, Idaho",
+        "time": 1748962653395,
+        "updated": 1748971970580,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhpb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhpb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "6000qhpb",
+        "ids": ",mb90092743,us6000qhpb,",
+        "sources": ",mb,us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.273,
+        "rms": 0.58,
+        "gap": 29,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 16 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0329,
+          44.3445,
+          16.243
+        ]
+      },
+      "id": "us6000qhpb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.49,
+        "place": "13 km NNW of Stanley, Idaho",
+        "time": 1748959120680,
+        "updated": 1748961679640,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90092703",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90092703.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 95,
+        "net": "mb",
+        "code": "90092703",
+        "ids": ",mb90092703,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.2485,
+        "rms": 0.11,
+        "gap": 61,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.5 - 13 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.001833333333,
+          44.3283333333333,
+          5.84
+        ]
+      },
+      "id": "mb90092703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "44 km SW of Kēng Tung, Burma (Myanmar)",
+        "time": 1748957336911,
+        "updated": 1748967336040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhnw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhnw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000qhnw",
+        "ids": ",us6000qhnw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 0.078,
+        "rms": 0.53,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 44 km SW of Kēng Tung, Burma (Myanmar)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.669,
+          21.3115,
+          10.694
+        ]
+      },
+      "id": "us6000qhnw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "39 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1748957314829,
+        "updated": 1748965010040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhns",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhns.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "us",
+        "code": "6000qhns",
+        "ids": ",us6000qhns,pr71484308,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 0.246,
+        "rms": 0.52,
+        "gap": 208,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 39 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6594,
+          18.6643,
+          65.996
+        ]
+      },
+      "id": "us6000qhns"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "57 km SSE of Hiroo, Japan",
+        "time": 1748956707625,
+        "updated": 1748957812040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhnr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhnr.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -347,1718 +1267,278 @@
         "tsunami": 0,
         "sig": 385,
         "net": "us",
-        "code": "6000qhjx",
-        "ids": ",us6000qhjx,",
+        "code": "6000qhnr",
+        "ids": ",us6000qhnr,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 2.201,
-        "rms": 1.18,
-        "gap": 54,
-        "magType": "mb",
+        "nst": 165,
+        "dmin": 0.358,
+        "rms": 0.64,
+        "gap": 79,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 83 km S of Finschhafen, Papua New Guinea"
+        "title": "M 5.0 - 57 km SSE of Hiroo, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.8816,
-          -7.3091,
-          53.434
+          143.5407,
+          41.7994,
+          38.169
         ]
       },
-      "id": "us6000qhjx"
+      "id": "us6000qhnr"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "Kermadec Islands region",
-        "time": 1748921697675,
-        "updated": 1748923026040,
+        "mag": 2.7,
+        "place": "8 km W of Mayagüez, Puerto Rico",
+        "time": 1748956696410,
+        "updated": 1748962510040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhjw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhjw.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhnp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhnp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 112,
         "net": "us",
-        "code": "6000qhjw",
-        "ids": ",us6000qhjw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 1.611,
-        "rms": 0.91,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.4647,
-          -27.6805,
-          102.735
-        ]
-      },
-      "id": "us6000qhjw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "47 km SE of Pedro Bay, Alaska",
-        "time": 1748921228961,
-        "updated": 1748922045040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhju",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhju.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000qhju",
-        "ids": ",us6000qhju,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.596,
-        "rms": 0.63,
-        "gap": 137,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 47 km SE of Pedro Bay, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.4493,
-          59.514,
-          113.722
-        ]
-      },
-      "id": "us6000qhju"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "32 km E of Bernal, Peru",
-        "time": 1748917847913,
-        "updated": 1748919125040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhjm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhjm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000qhjm",
-        "ids": ",us6000qhjm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 43,
-        "dmin": 3.237,
-        "rms": 0.76,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 32 km E of Bernal, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.4584,
-          -5.4937,
-          103.951
-        ]
-      },
-      "id": "us6000qhjm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "15 km NNW of Stanley, Idaho",
-        "time": 1748917598999,
-        "updated": 1748925717335,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhjl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhjl.geojson",
-        "felt": 3,
-        "cdi": 2.2,
-        "mmi": 3.505,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 200,
-        "net": "us",
-        "code": "6000qhjl",
-        "ids": ",us6000qhjl,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 23,
-        "dmin": 0.267,
-        "rms": 0.49,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 15 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0355,
-          44.3365,
-          9.065
-        ]
-      },
-      "id": "us6000qhjl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.6,
-        "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748917427914,
-        "updated": 1748925358548,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhjk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhjk.geojson",
-        "felt": 2,
-        "cdi": 3.1,
-        "mmi": 3.379,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 200,
-        "net": "us",
-        "code": "6000qhjk",
-        "ids": ",us6000qhjk,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 28,
-        "dmin": 0.261,
-        "rms": 0.53,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.6 - 14 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0117,
-          44.3392,
-          15.529
-        ]
-      },
-      "id": "us6000qhjk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "3 km NNE of Mayagüez, Puerto Rico",
-        "time": 1748912462750,
-        "updated": 1748914186110,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484218",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484218.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "pr",
-        "code": "71484218",
-        "ids": ",pr71484218,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 0.02152,
-        "rms": 0.15,
-        "gap": 116,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.5 - 3 km NNE of Mayagüez, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1218333333333,
-          18.2295,
-          24.74
-        ]
-      },
-      "id": "pr71484218"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "2 km E of Lázaro Cárdenas, Mexico",
-        "time": 1748908469828,
-        "updated": 1748914107642,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhix",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhix.geojson",
-        "felt": 1,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000qhix",
-        "ids": ",us6000qhix,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 66,
-        "dmin": 2.937,
-        "rms": 0.76,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 2 km E of Lázaro Cárdenas, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.7712,
-          16.6056,
-          137.925
-        ]
-      },
-      "id": "us6000qhix"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "13 km WSW of Huarancante, Peru",
-        "time": 1748907926806,
-        "updated": 1748913213040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhiv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhiv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000qhiv",
-        "ids": ",us6000qhiv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 2.672,
-        "rms": 0.83,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 13 km WSW of Huarancante, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.5717,
-          -15.8132,
-          141.165
-        ]
-      },
-      "id": "us6000qhiv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.93,
-        "place": "7 km WSW of Atascadero, CA",
-        "time": 1748907490540,
-        "updated": 1748931825097,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75190256",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75190256.geojson",
-        "felt": 218,
-        "cdi": 3.3,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 204,
-        "net": "nc",
-        "code": "75190256",
-        "ids": ",nc75190256,us6000qhis,",
-        "sources": ",nc,us,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 43,
-        "dmin": 0.1162,
-        "rms": 0.04,
-        "gap": 53,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 7 km WSW of Atascadero, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.738502502441,
-          35.4560012817383,
-          5.42999982833862
-        ]
-      },
-      "id": "nc75190256"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.43,
-        "place": "131 km NNE of Vieques, Puerto Rico",
-        "time": 1748907023420,
-        "updated": 1748912021040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484203",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484203.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 181,
-        "net": "pr",
-        "code": "71484203",
-        "ids": ",us6000qhiy,pr71484203,",
+        "code": "6000qhnp",
+        "ids": ",us6000qhnp,pr71484298,",
         "sources": ",us,pr,",
         "types": ",origin,phase-data,",
         "nst": 17,
-        "dmin": 1.294,
-        "rms": 0.26,
-        "gap": 275,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 131 km NNE of Vieques, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -65.4695,
-          19.5583333333333,
-          68.92
-        ]
-      },
-      "id": "pr71484203"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "5 km S of İçmeler, Turkey",
-        "time": 1748906248423,
-        "updated": 1748932750224,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhiq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhiq.geojson",
-        "felt": 333,
-        "cdi": 6.2,
-        "mmi": 4.843,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 724,
-        "net": "us",
-        "code": "6000qhiq",
-        "ids": ",us6000qhiq,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 116,
-        "dmin": 0.54,
-        "rms": 0.88,
-        "gap": 28,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - 5 km S of İçmeler, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.2323,
-          36.7471,
-          74.036
-        ]
-      },
-      "id": "us6000qhiq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "12 km NNW of Stanley, Idaho",
-        "time": 1748906207168,
-        "updated": 1748916110936,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhip",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhip.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000qhip",
-        "ids": ",us6000qhip,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 20,
-        "dmin": 0.242,
-        "rms": 0.34,
-        "gap": 62,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 12 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0082,
-          44.3186,
-          14.516
-        ]
-      },
-      "id": "us6000qhip"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "17 km WNW of Stanley, Idaho",
-        "time": 1748897377884,
-        "updated": 1748899623650,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhhr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhhr.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "us",
-        "code": "6000qhhr",
-        "ids": ",mb90092053,us6000qhhr,",
-        "sources": ",mb,us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.278,
-        "rms": 0.49,
-        "gap": 65,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 17 km WNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.1287,
-          44.2969,
-          13.307
-        ]
-      },
-      "id": "us6000qhhr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Banda Sea",
-        "time": 1748897153088,
-        "updated": 1748898183040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhhq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhhq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000qhhq",
-        "ids": ",us6000qhhq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 4.689,
-        "rms": 0.6,
-        "gap": 118,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Banda Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          129.4903,
-          -6.7432,
-          166.353
-        ]
-      },
-      "id": "us6000qhhq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.53,
-        "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748895163920,
-        "updated": 1748897117790,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90092028",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90092028.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 98,
-        "net": "mb",
-        "code": "90092028",
-        "ids": ",mb90092028,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 0.2635,
-        "rms": 0.12,
-        "gap": 71,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 14 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.010333333333,
-          44.342,
-          4.1
-        ]
-      },
-      "id": "mb90092028"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "56 km S of Whites City, New Mexico",
-        "time": 1748894476471,
-        "updated": 1748895515040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ktgp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ktgp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025ktgp",
-        "ids": ",us6000qhhb,tx2025ktgp,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0,
-        "rms": 0.3,
-        "gap": 69,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 56 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.377,
-          31.669,
-          3.7844
-        ]
-      },
-      "id": "tx2025ktgp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "286 km WNW of Houma, Tonga",
-        "time": 1748892867581,
-        "updated": 1748894972040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhh4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhh4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "6000qhh4",
-        "ids": ",us6000qhh4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 4.4,
-        "rms": 0.61,
-        "gap": 148,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 286 km WNW of Houma, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.6947,
-          -19.899,
-          408.142
-        ]
-      },
-      "id": "us6000qhh4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "12 km NNW of Stanley, Idaho",
-        "time": 1748890041643,
-        "updated": 1748891050040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhh0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhh0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000qhh0",
-        "ids": ",us6000qhh0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.237,
-        "rms": 0.61,
-        "gap": 57,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 12 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.9778,
-          44.3236,
-          10.413
-        ]
-      },
-      "id": "us6000qhh0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Kermadec Islands region",
-        "time": 1748888976177,
-        "updated": 1748890766040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhgx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhgx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000qhgx",
-        "ids": ",us6000qhgx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 2.012,
-        "rms": 0.63,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.5418,
-          -31.1924,
-          37.168
-        ]
-      },
-      "id": "us6000qhgx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748888259344,
-        "updated": 1748889246040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhgu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhgu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000qhgu",
-        "ids": ",us6000qhgu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.259,
+        "dmin": 0.07,
         "rms": 0.42,
-        "gap": 62,
+        "gap": 137,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 14 km NNW of Stanley, Idaho"
+        "title": "M 2.7 - 8 km W of Mayagüez, Puerto Rico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.0245,
-          44.332,
-          10.161
+          -67.2182,
+          18.209,
+          94.024
         ]
       },
-      "id": "us6000qhgu"
+      "id": "us6000qhnp"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.6,
-        "place": "13 km NNW of Stanley, Idaho",
-        "time": 1748888028470,
-        "updated": 1748888849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhgt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhgt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000qhgt",
-        "ids": ",us6000qhgt,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 0.255,
-        "rms": 0.69,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 13 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0173,
-          44.3296,
-          13.53
-        ]
-      },
-      "id": "us6000qhgt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "26 km SW of Jal, New Mexico",
-        "time": 1748885609474,
-        "updated": 1748886893040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ktbo",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ktbo.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "tx",
-        "code": "2025ktbo",
-        "ids": ",us6000qhgp,tx2025ktbo,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 55,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 26 km SW of Jal, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.382,
-          31.942,
-          6.1383
-        ]
-      },
-      "id": "tx2025ktbo"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.8,
-        "place": "9 km NNW of Susitna, Alaska",
-        "time": 1748879505726,
-        "updated": 1748882492040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak02571agmoc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak02571agmoc.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 121,
-        "net": "ak",
-        "code": "02571agmoc",
-        "ids": ",ak02571agmoc,us6000qhfj,",
-        "sources": ",ak,us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.32,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.8 - 9 km NNW of Susitna, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.5917,
-          61.6193,
-          46.5
-        ]
-      },
-      "id": "ak02571agmoc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "8 km W of Puerto Madero, Mexico",
-        "time": 1748872187255,
-        "updated": 1748900914502,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhez",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhez.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 285,
-        "net": "us",
-        "code": "6000qhez",
-        "ids": ",us6000qhez,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 78,
-        "dmin": 1.95,
-        "rms": 0.65,
-        "gap": 196,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 8 km W of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.5025,
-          14.7299,
-          72.594
-        ]
-      },
-      "id": "us6000qhez"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "70 km SE of Severo-Kuril’sk, Russia",
-        "time": 1748872092502,
-        "updated": 1748879741040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhf2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhf2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000qhf2",
-        "ids": ",us6000qhf2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 3.024,
-        "rms": 0.81,
-        "gap": 133,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 70 km SE of Severo-Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          156.6857,
-          50.1554,
-          51.788
-        ]
-      },
-      "id": "us6000qhf2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "121 km NE of Lospalos, Timor Leste",
-        "time": 1748869806503,
-        "updated": 1748876927040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qheu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qheu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000qheu",
-        "ids": ",us6000qheu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 13,
-        "dmin": 4.007,
-        "rms": 0.87,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 121 km NE of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.7792,
-          -7.741,
-          176.73
-        ]
-      },
-      "id": "us6000qheu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.57,
-        "place": "6 km SSW of Stella, Puerto Rico",
-        "time": 1748869608660,
-        "updated": 1748873934050,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484168",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484168.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 102,
-        "net": "pr",
-        "code": "71484168",
-        "ids": ",pr71484168,",
-        "sources": ",pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.1281,
-        "rms": 0.18,
-        "gap": 247,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 6 km SSW of Stella, Puerto Rico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2706666666667,
-          18.263,
-          71.28
-        ]
-      },
-      "id": "pr71484168"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "35 km WSW of Trapper Creek, Alaska",
-        "time": 1748869262144,
-        "updated": 1748875813040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025718yyb1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025718yyb1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "025718yyb1",
-        "ids": ",us6000qheq,ak025718yyb1,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.5,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 35 km WSW of Trapper Creek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.815,
-          62.1553,
-          58.5
-        ]
-      },
-      "id": "ak025718yyb1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.41,
-        "place": "78 km NNE of Cruz Bay, U.S. Virgin Islands",
-        "time": 1748869217010,
-        "updated": 1748876095040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484158",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484158.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 179,
-        "net": "pr",
-        "code": "71484158",
-        "ids": ",us6000qhep,pr71484158,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.5953,
-        "rms": 0.31,
-        "gap": 289,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 3.4 - 78 km NNE of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.6006666666667,
-          19.0183333333333,
-          52.69
-        ]
-      },
-      "id": "pr71484158"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.62,
+        "mag": 3.9,
         "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748868239890,
-        "updated": 1748880258400,
+        "time": 1748955971701,
+        "updated": 1748965719112,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90091828",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb90091828.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhnl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhnl.geojson",
+        "felt": 8,
+        "cdi": 3.1,
+        "mmi": 3.789,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 106,
-        "net": "mb",
-        "code": "90091828",
-        "ids": ",mb90091828,",
-        "sources": ",mb,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.2574,
-        "rms": 0.15,
-        "gap": 61,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 14 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.011666666667,
-          44.3346666666667,
-          7.8
-        ]
-      },
-      "id": "mb90091828"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "54 km S of Whites City, New Mexico",
-        "time": 1748867291340,
-        "updated": 1748867930040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ksrt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ksrt.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "tx",
-        "code": "2025ksrt",
-        "ids": ",us6000qheg,tx2025ksrt,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 0,
-        "rms": 0.1,
-        "gap": 68,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 54 km S of Whites City, New Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.393,
-          31.683,
-          5.177
-        ]
-      },
-      "id": "tx2025ksrt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748866335444,
-        "updated": 1748881951033,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhef",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhef.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 158,
+        "sig": 236,
         "net": "us",
-        "code": "6000qhef",
-        "ids": ",us6000qhef,mb90091808,",
+        "code": "6000qhnl",
+        "ids": ",us6000qhnl,mb90092673,",
         "sources": ",us,mb,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 58,
-        "dmin": 0.259,
-        "rms": 0.61,
-        "gap": 31,
-        "magType": "ml",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 81,
+        "dmin": 0.261,
+        "rms": 1.02,
+        "gap": 30,
+        "magType": "mwr",
         "type": "earthquake",
-        "title": "M 3.2 - 14 km NNW of Stanley, Idaho"
+        "title": "M 3.9 - 14 km NNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.9868,
-          44.3444,
-          6.71
+          -115.0134,
+          44.338,
+          12.787
         ]
       },
-      "id": "us6000qhef"
+      "id": "us6000qhnl"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.2,
-        "place": "14 km NNW of Stanley, Idaho",
-        "time": 1748865382389,
-        "updated": 1748881826386,
+        "mag": 3.9,
+        "place": "15 km NNW of Stanley, Idaho",
+        "time": 1748951974574,
+        "updated": 1749012555438,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhed",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhed.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhmg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhmg.geojson",
+        "felt": 13,
+        "cdi": 4.1,
+        "mmi": 3.797,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 158,
+        "sig": 239,
         "net": "us",
-        "code": "6000qhed",
-        "ids": ",us6000qhed,",
+        "code": "6000qhmg",
+        "ids": ",us6000qhmg,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.262,
-        "rms": 0.65,
-        "gap": 30,
-        "magType": "ml",
+        "types": ",dyfi,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 41,
+        "dmin": 0.265,
+        "rms": 0.44,
+        "gap": 45,
+        "magType": "mb",
         "type": "earthquake",
-        "title": "M 3.2 - 14 km NNW of Stanley, Idaho"
+        "title": "M 3.9 - 15 km NNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.9922,
-          44.3463,
-          5.971
+          -115.0139,
+          44.3427,
+          12.354
         ]
       },
-      "id": "us6000qhed"
+      "id": "us6000qhmg"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 3.5,
-        "place": "270 km SW of Adak, Alaska",
-        "time": 1748864741137,
-        "updated": 1748891456201,
+        "place": "15 km NNW of Stanley, Idaho",
+        "time": 1748951872361,
+        "updated": 1748961925615,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0257181llj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0257181llj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhmf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhmf.geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1,
+        "mmi": 3.376,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 188,
-        "net": "ak",
-        "code": "0257181llj",
-        "ids": ",ak0257181llj,",
-        "sources": ",ak,",
+        "net": "us",
+        "code": "6000qhmf",
+        "ids": ",us6000qhmf,",
+        "sources": ",us,",
         "types": ",origin,phase-data,shakemap,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.63,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 270 km SW of Adak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.3909,
-          50.1728,
-          33.2
-        ]
-      },
-      "id": "ak0257181llj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "118 km S of Bengkulu, Indonesia",
-        "time": 1748860905447,
-        "updated": 1748866383040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhe7",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhe7.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000qhe7",
-        "ids": ",us6000qhe7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 0.875,
-        "rms": 1.35,
-        "gap": 163,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 118 km S of Bengkulu, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          102.2415,
-          -4.8731,
-          30.926
-        ]
-      },
-      "id": "us6000qhe7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.5,
-        "place": "17 km NNW of Stanley, Idaho",
-        "time": 1748858623011,
-        "updated": 1748872811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhe2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhe2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 96,
-        "net": "us",
-        "code": "6000qhe2",
-        "ids": ",us6000qhe2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 0.282,
-        "rms": 0.67,
-        "gap": 59,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.5 - 17 km NNW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0283,
-          44.3562,
-          5
-        ]
-      },
-      "id": "us6000qhe2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.9,
-        "place": "48 km SSE of Nelchina, Alaska",
-        "time": 1748856742853,
-        "updated": 1748871448040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak025716rwod",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak025716rwod.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 129,
-        "net": "ak",
-        "code": "025716rwod",
-        "ids": ",us6000qhdx,ak025716rwod,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": null,
-        "dmin": null,
-        "rms": 0.4,
-        "gap": null,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.9 - 48 km SSE of Nelchina, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -146.3799,
-          61.5953,
-          30.6
-        ]
-      },
-      "id": "ak025716rwod"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "15 km NW of Stanley, Idaho",
-        "time": 1748855386687,
-        "updated": 1748872551040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhdw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhdw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "6000qhdw",
-        "ids": ",us6000qhdw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
         "nst": 29,
-        "dmin": 0.266,
-        "rms": 0.78,
-        "gap": 63,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 15 km NW of Stanley, Idaho"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.0563,
-          44.3252,
-          5
-        ]
-      },
-      "id": "us6000qhdw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "24 km SW of Jal, New Mexico",
-        "time": 1748851767262,
-        "updated": 1748855037040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ksjf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ksjf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "tx",
-        "code": "2025ksjf",
-        "ids": ",us6000qhdt,tx2025ksjf,",
-        "sources": ",us,tx,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 0.1,
-        "rms": 0.1,
+        "dmin": 0.272,
+        "rms": 0.37,
         "gap": 58,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 2.6 - 24 km SW of Jal, New Mexico"
+        "title": "M 3.5 - 15 km NNW of Stanley, Idaho"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.382,
-          31.958,
-          6.3049
+          -115.0143,
+          44.3502,
+          15.416
         ]
       },
-      "id": "tx2025ksjf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "62 km SSW of Port-Vila, Vanuatu",
-        "time": 1748849122761,
-        "updated": 1748852438300,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhdq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhdq.geojson",
-        "felt": 1,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000qhdq",
-        "ids": ",us6000qhdq,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 2.872,
-        "rms": 0.77,
-        "gap": 163,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 62 km SSW of Port-Vila, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          168.0214,
-          -18.2259,
-          35
-        ]
-      },
-      "id": "us6000qhdq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.1,
-        "place": "43 km NNE of Chiang Mai, Thailand",
-        "time": 1748848059191,
-        "updated": 1748915582763,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qher",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qher.geojson",
-        "felt": 4,
-        "cdi": 2.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 259,
-        "net": "us",
-        "code": "6000qher",
-        "ids": ",us6000qher,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 12,
-        "dmin": 1.575,
-        "rms": 0.51,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.1 - 43 km NNE of Chiang Mai, Thailand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          99.1525,
-          19.1467,
-          10
-        ]
-      },
-      "id": "us6000qher"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "23 km SE of Rasht, Tajikistan",
-        "time": 1748848047177,
-        "updated": 1748878806040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhdm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhdm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "6000qhdm",
-        "ids": ",us6000qhdm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 1.112,
-        "rms": 0.54,
-        "gap": 149,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 23 km SE of Rasht, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          70.5546,
-          38.8692,
-          10
-        ]
-      },
-      "id": "us6000qhdm"
+      "id": "us6000qhmf"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "Pagan region, Northern Mariana Islands",
-        "time": 1748847151688,
-        "updated": 1748848479040,
+        "place": "7 km E of Kentrí, Greece",
+        "time": 1748949996034,
+        "updated": 1749017423513,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhdj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhdj.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhma",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhma.geojson",
+        "felt": 12,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 374,
+        "net": "us",
+        "code": "6000qhma",
+        "ids": ",us6000qhma,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 111,
+        "dmin": 2.212,
+        "rms": 0.67,
+        "gap": 31,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 7 km E of Kentrí, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8319,
+          35.022,
+          39.887
+        ]
+      },
+      "id": "us6000qhma"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "177 km NNW of Arawa, Papua New Guinea",
+        "time": 1748947294825,
+        "updated": 1748948144040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhly",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhly.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000qhly",
+        "ids": ",us6000qhly,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 80,
+        "dmin": 6.658,
+        "rms": 0.68,
+        "gap": 25,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 177 km NNW of Arawa, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.2426,
+          -4.6598,
+          495.456
+        ]
+      },
+      "id": "us6000qhly"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "120 km E of Bitung, Indonesia",
+        "time": 1748941916563,
+        "updated": 1748943139040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhlq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhlq.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -2067,35 +1547,195 @@
         "tsunami": 0,
         "sig": 369,
         "net": "us",
-        "code": "6000qhdj",
-        "ids": ",us6000qhdj,",
+        "code": "6000qhlq",
+        "ids": ",us6000qhlq,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 113,
-        "dmin": 2.766,
-        "rms": 0.7,
-        "gap": 59,
+        "nst": 64,
+        "dmin": 1.296,
+        "rms": 0.8,
+        "gap": 79,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - Pagan region, Northern Mariana Islands"
+        "title": "M 4.9 - 120 km E of Bitung, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.5916,
-          18.0157,
-          276.443
+          126.2067,
+          1.3538,
+          56.411
         ]
       },
-      "id": "us6000qhdj"
+      "id": "us6000qhlq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.88,
+        "place": "3 km W of Mount Vernon, Washington",
+        "time": 1748941191900,
+        "updated": 1749013828579,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62121826",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62121826.geojson",
+        "felt": 83,
+        "cdi": 4.1,
+        "mmi": 3.218,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 162,
+        "net": "uw",
+        "code": "62121826",
+        "ids": ",uw62121826,us6000qhln,",
+        "sources": ",uw,us,",
+        "types": ",dyfi,origin,phase-data,shakemap,",
+        "nst": 25,
+        "dmin": 0.04805,
+        "rms": 0.21,
+        "gap": 37,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 3 km W of Mount Vernon, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38683333333333,
+          48.4145,
+          8.7
+        ]
+      },
+      "id": "uw62121826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "0 km W of Indios, Puerto Rico",
+        "time": 1748939136050,
+        "updated": 1748939823030,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71484273",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71484273.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 96,
+        "net": "pr",
+        "code": "71484273",
+        "ids": ",pr71484273,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 0.05449,
+        "rms": 0.15,
+        "gap": 172,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 0 km W of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.826,
+          17.9951666666667,
+          15.78
+        ]
+      },
+      "id": "pr71484273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "15 km NNW of Stanley, Idaho",
+        "time": 1748936082242,
+        "updated": 1749019215355,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhl8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhl8.geojson",
+        "felt": 13,
+        "cdi": 3.4,
+        "mmi": 3.892,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 251,
+        "net": "us",
+        "code": "6000qhl8",
+        "ids": ",us6000qhl8,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 43,
+        "dmin": 0.268,
+        "rms": 0.8,
+        "gap": 31,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 4.0 - 15 km NNW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.9943,
+          44.3519,
+          16.107
+        ]
+      },
+      "id": "us6000qhl8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "133 km WNW of Pangai, Tonga",
+        "time": 1748933274164,
+        "updated": 1748935889040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qhkz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000qhkz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000qhkz",
+        "ids": ",us6000qhkz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 32,
+        "dmin": 5.315,
+        "rms": 0.96,
+        "gap": 92,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 133 km WNW of Pangai, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.5429,
+          -19.3953,
+          252.73
+        ]
+      },
+      "id": "us6000qhkz"
     }
   ],
   "bbox": [
-    -179.3909,
-    -31.1924,
-    2.367,
-    168.0214,
-    62.1553,
-    408.142
+    -177.289,
+    -45.1423,
+    4.69,
+    167.1259,
+    63.1503,
+    495.456
   ]
 }
