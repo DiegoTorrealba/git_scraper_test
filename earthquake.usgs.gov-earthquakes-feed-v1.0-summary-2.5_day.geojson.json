@@ -1,224 +1,64 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1784362290000,
+    "generated": 1784450182000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "2.7.0",
-    "count": 66
+    "count": 47
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 3.64,
-        "place": "45 km SE of Beatty, Nevada",
-        "time": 1784360043252,
-        "updated": 1784361778716,
+        "mag": 3.11,
+        "place": "6 km NW of The Geysers, CA",
+        "time": 1784437890540,
+        "updated": 1784441597445,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00921891",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00921891.geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": 3.46,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75398761",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75398761.geojson",
+        "felt": 8,
+        "cdi": 2.8,
+        "mmi": null,
         "alert": null,
-        "status": "reviewed",
+        "status": "automatic",
         "tsunami": 0,
-        "sig": 204,
-        "net": "nn",
-        "code": "00921891",
-        "ids": ",nn00921891,us7000t1k8,",
-        "sources": ",nn,us,",
-        "types": ",dyfi,origin,phase-data,shakemap,",
-        "nst": 40,
-        "dmin": 0.024,
-        "rms": 0.1976,
-        "gap": 72,
+        "sig": 151,
+        "net": "nc",
+        "code": "75398761",
+        "ids": ",nc75398761,us7000t1qz,",
+        "sources": ",nc,us,",
+        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 88,
+        "dmin": 0.006636,
+        "rms": 0.1,
+        "gap": 26,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 3.6 - 45 km SE of Beatty, Nevada"
+        "title": "M 3.1 - 6 km NW of The Geysers, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3333,
-          36.6764,
-          9.2472
+          -122.80249786377,
+          38.8115005493164,
+          2.25
         ]
       },
-      "id": "nn00921891"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "79 km SW of Puerto Madero, Mexico",
-        "time": 1784359247704,
-        "updated": 1784361471040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1k4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1k4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000t1k4",
-        "ids": ",us7000t1k4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 75,
-        "dmin": 3.117,
-        "rms": 0.93,
-        "gap": 174,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 79 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9726,
-          14.2437,
-          35
-        ]
-      },
-      "id": "us7000t1k4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "104 km SSE of Akhiok, Alaska",
-        "time": 1784359242361,
-        "updated": 1784360266040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ochauu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ochauu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 2.888,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "ak",
-        "code": "a2026ochauu",
-        "ids": ",us7000t1k3,aka2026ochauu,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,shakemap,",
-        "nst": 178,
-        "dmin": 0.6,
-        "rms": 0.6,
-        "gap": 176,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.3 - 104 km SSE of Akhiok, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -153.339,
-          56.124,
-          37.1
-        ]
-      },
-      "id": "aka2026ochauu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "87 km WSW of Puerto Madero, Mexico",
-        "time": 1784357510543,
-        "updated": 1784358533040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jy.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000t1jy",
-        "ids": ",us7000t1jy,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 100,
-        "dmin": 3.305,
-        "rms": 0.64,
-        "gap": 145,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 87 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.1511,
-          14.3804,
-          35
-        ]
-      },
-      "id": "us7000t1jy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "central Mid-Atlantic Ridge",
-        "time": 1784355968899,
-        "updated": 1784357032040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jw",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jw.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000t1jw",
-        "ids": ",us7000t1jw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 9.954,
-        "rms": 0.58,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - central Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -21.4952,
-          -0.9196,
-          10
-        ]
-      },
-      "id": "us7000t1jw"
+      "id": "nc75398761"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "73 km SW of Puerto Madero, Mexico",
-        "time": 1784355019000,
-        "updated": 1784356099040,
+        "place": "Kuril Islands",
+        "time": 1784437105200,
+        "updated": 1784438368040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jt.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1qt",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1qt.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -227,118 +67,118 @@
         "tsunami": 0,
         "sig": 326,
         "net": "us",
-        "code": "7000t1jt",
-        "ids": ",us7000t1jt,",
+        "code": "7000t1qt",
+        "ids": ",us7000t1qt,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 3.073,
-        "rms": 0.7,
-        "gap": 161,
+        "nst": 61,
+        "dmin": 6.447,
+        "rms": 0.53,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 73 km SW of Puerto Madero, Mexico"
+        "title": "M 4.6 - Kuril Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.9244,
-          14.2694,
+          152.5539,
+          47.5702,
+          112.886
+        ]
+      },
+      "id": "us7000t1qt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.8,
+        "place": "171 km WSW of Port Orford, Oregon",
+        "time": 1784436036416,
+        "updated": 1784436500040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1qq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1qq.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "us",
+        "code": "7000t1qq",
+        "ids": ",us7000t1qq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 1.606,
+        "rms": 0.57,
+        "gap": 276,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 171 km WSW of Port Orford, Oregon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.5141,
+          42.3622,
+          10
+        ]
+      },
+      "id": "us7000t1qq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "105 km SW of Puerto Madero, Mexico",
+        "time": 1784435935545,
+        "updated": 1784437494040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1qr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1qr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t1qr",
+        "ids": ",us7000t1qr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 44,
+        "dmin": 3.124,
+        "rms": 0.83,
+        "gap": 211,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 105 km SW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9971,
+          13.9552,
           35
         ]
       },
-      "id": "us7000t1jt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "116 km ENE of Murghob, Tajikistan",
-        "time": 1784353642550,
-        "updated": 1784355219040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jq.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000t1jq",
-        "ids": ",us7000t1jq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 90,
-        "dmin": 2.127,
-        "rms": 0.81,
-        "gap": 85,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 116 km ENE of Murghob, Tajikistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          75.1665,
-          38.6227,
-          10
-        ]
-      },
-      "id": "us7000t1jq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "south of the Kermadec Islands",
-        "time": 1784353607673,
-        "updated": 1784354744040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000t1jp",
-        "ids": ",us7000t1jp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 3.566,
-        "rms": 0.74,
-        "gap": 57,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - south of the Kermadec Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.1149,
-          -32.8189,
-          10
-        ]
-      },
-      "id": "us7000t1jp"
+      "id": "us7000t1qr"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.2,
-        "place": "84 km WSW of Puerto Madero, Mexico",
-        "time": 1784352388623,
-        "updated": 1784353905040,
+        "place": "60 km SW of Puerto Madero, Mexico",
+        "time": 1784435727161,
+        "updated": 1784437067040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jn.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1qp",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1qp.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -347,318 +187,318 @@
         "tsunami": 0,
         "sig": 271,
         "net": "us",
-        "code": "7000t1jn",
-        "ids": ",us7000t1jn,",
+        "code": "7000t1qp",
+        "ids": ",us7000t1qp,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 3.3,
-        "rms": 0.72,
-        "gap": 170,
+        "nst": 52,
+        "dmin": 2.911,
+        "rms": 0.75,
+        "gap": 189,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.2 - 84 km WSW of Puerto Madero, Mexico"
+        "title": "M 4.2 - 60 km SW of Puerto Madero, Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.1409,
-          14.4176,
+          -92.7545,
+          14.2815,
+          30.682
+        ]
+      },
+      "id": "us7000t1qp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "91 km SW of Brisas Barra de Suchiate, Mexico",
+        "time": 1784434526680,
+        "updated": 1784436138040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1qk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1qk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t1qk",
+        "ids": ",us7000t1qk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 3.014,
+        "rms": 0.48,
+        "gap": 191,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 91 km SW of Brisas Barra de Suchiate, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.8824,
+          14.0191,
           35
         ]
       },
-      "id": "us7000t1jn"
+      "id": "us7000t1qk"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4,
-        "place": "1 km SW of Polkowice, Poland",
-        "time": 1784351822086,
-        "updated": 1784353151040,
+        "mag": 2.8,
+        "place": "83 km N of Karluk, Alaska",
+        "time": 1784433934247,
+        "updated": 1784434554040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jl.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026odwoan",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026odwoan.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 121,
+        "net": "ak",
+        "code": "a2026odwoan",
+        "ids": ",us7000t1qi,aka2026odwoan,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 0.1,
+        "rms": 0.4,
+        "gap": 107,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 83 km N of Karluk, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.626,
+          58.314,
+          5
+        ]
+      },
+      "id": "aka2026odwoan"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "53 km WSW of Puerto Madero, Mexico",
+        "time": 1784431640074,
+        "updated": 1784434009040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1qd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1qd.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 246,
+        "sig": 271,
         "net": "us",
-        "code": "7000t1jl",
-        "ids": ",us7000t1jl,",
+        "code": "7000t1qd",
+        "ids": ",us7000t1qd,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.159,
-        "rms": 0.76,
-        "gap": 67,
+        "nst": 53,
+        "dmin": 3.053,
+        "rms": 0.75,
+        "gap": 186,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.0 - 1 km SW of Polkowice, Poland"
+        "title": "M 4.2 - 53 km WSW of Puerto Madero, Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.06,
-          51.4953,
-          10
+          -92.8652,
+          14.5135,
+          35
         ]
       },
-      "id": "us7000t1jl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "110 km ESE of Chiniak, Alaska",
-        "time": 1784350924641,
-        "updated": 1784351553040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026occkjx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026occkjx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026occkjx",
-        "ids": ",us7000t1jj,aka2026occkjx,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 1.2,
-        "rms": 0.9,
-        "gap": 235,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 110 km ESE of Chiniak, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.476,
-          57.421,
-          48.2
-        ]
-      },
-      "id": "aka2026occkjx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.5,
-        "place": "192 km SE of Chignik, Alaska",
-        "time": 1784350740667,
-        "updated": 1784351582040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026occhwe",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026occhwe.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 188,
-        "net": "ak",
-        "code": "a2026occhwe",
-        "ids": ",us7000t1jh,aka2026occhwe,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.9,
-        "rms": 0.6,
-        "gap": 236,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.5 - 192 km SE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.367,
-          55.01,
-          21.6
-        ]
-      },
-      "id": "aka2026occhwe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "78 km SW of Puerto Madero, Mexico",
-        "time": 1784349632464,
-        "updated": 1784350580040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jf.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000t1jf",
-        "ids": ",us7000t1jf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 3.069,
-        "rms": 1.27,
-        "gap": 209,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 78 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9265,
-          14.2112,
-          10
-        ]
-      },
-      "id": "us7000t1jf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.2,
-        "place": "67 km N of Petersville, Alaska",
-        "time": 1784349102126,
-        "updated": 1784350917040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ocbkcs",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ocbkcs.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 158,
-        "net": "ak",
-        "code": "a2026ocbkcs",
-        "ids": ",us7000t1ja,aka2026ocbkcs,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 96,
-        "dmin": 0.6,
-        "rms": 0.9,
-        "gap": 26,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.2 - 67 km N of Petersville, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -150.678,
-          63.098,
-          122.4
-        ]
-      },
-      "id": "aka2026ocbkcs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "192 km SE of Chignik, Alaska",
-        "time": 1784348981309,
-        "updated": 1784351124040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ocbilm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ocbilm.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026ocbilm",
-        "ids": ",us7000t1j9,aka2026ocbilm,",
-        "sources": ",us,ak,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 0.9,
-        "rms": 0.6,
-        "gap": 237,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 192 km SE of Chignik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.387,
-          54.992,
-          14.5
-        ]
-      },
-      "id": "aka2026ocbilm"
+      "id": "us7000t1qd"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "71 km WSW of Puerto Madero, Mexico",
-        "time": 1784348932579,
-        "updated": 1784349767040,
+        "place": "40 km ENE of Shahrak-e Kūlūrī, Iran",
+        "time": 1784427920255,
+        "updated": 1784436036695,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1jb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1jb.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1q8.geojson",
+        "felt": 1,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "7000t1q8",
+        "ids": ",us7000t1q8,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 59,
+        "dmin": 6.776,
+        "rms": 1.15,
+        "gap": 77,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 4.9 - 40 km ENE of Shahrak-e Kūlūrī, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.8375,
+          32.5523,
+          10
+        ]
+      },
+      "id": "us7000t1q8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "2 km WSW of Sicaya, Peru",
+        "time": 1784427876324,
+        "updated": 1784435557638,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q7",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1q7.geojson",
+        "felt": 4,
+        "cdi": 6.4,
+        "mmi": 6.694,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 653,
+        "net": "us",
+        "code": "7000t1q7",
+        "ids": ",us7000t1q7,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 74,
+        "dmin": 1.509,
+        "rms": 0.93,
+        "gap": 81,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - 2 km WSW of Sicaya, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3013,
+          -12.0429,
+          10
+        ]
+      },
+      "id": "us7000t1q7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "59 km SW of Puerto Madero, Mexico",
+        "time": 1784427534767,
+        "updated": 1784428544040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1q6.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 432,
         "net": "us",
-        "code": "7000t1jb",
-        "ids": ",us7000t1jb,",
+        "code": "7000t1q6",
+        "ids": ",us7000t1q6,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 3.264,
-        "rms": 1.06,
-        "gap": 176,
-        "magType": "mb",
+        "nst": 56,
+        "dmin": 2.916,
+        "rms": 1,
+        "gap": 148,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 71 km WSW of Puerto Madero, Mexico"
+        "title": "M 5.3 - 59 km SW of Puerto Madero, Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.0737,
-          14.5811,
+          -92.7591,
+          14.292,
+          19.593
+        ]
+      },
+      "id": "us7000t1q6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "55 km SW of Puerto Madero, Mexico",
+        "time": 1784426493461,
+        "updated": 1784435101040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1q5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000t1q5",
+        "ids": ",us7000t1q5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 52,
+        "dmin": 2.94,
+        "rms": 0.89,
+        "gap": 148,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 55 km SW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7735,
+          14.3608,
           35
         ]
       },
-      "id": "us7000t1jb"
+      "id": "us7000t1q5"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "Ascension Island region",
-        "time": 1784347631863,
-        "updated": 1784348572040,
+        "place": "127 km NNE of Tobelo, Indonesia",
+        "time": 1784426276503,
+        "updated": 1784427568040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1j4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1j4.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1q4.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -667,1838 +507,38 @@
         "tsunami": 0,
         "sig": 354,
         "net": "us",
-        "code": "7000t1j4",
-        "ids": ",us7000t1j4,",
+        "code": "7000t1q4",
+        "ids": ",us7000t1q4,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 3.767,
-        "rms": 1.06,
-        "gap": 60,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Ascension Island region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.8232,
-          -11.6863,
-          10
-        ]
-      },
-      "id": "us7000t1j4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "17 km SE of Malatya, Turkey",
-        "time": 1784344860587,
-        "updated": 1784360168644,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1j0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1j0.geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000t1j0",
-        "ids": ",us7000t1j0,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 66,
-        "dmin": 0.659,
-        "rms": 0.98,
-        "gap": 55,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 17 km SE of Malatya, Turkey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          38.4814,
-          38.2608,
-          10
-        ]
-      },
-      "id": "us7000t1j0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "74 km SW of Puerto Madero, Mexico",
-        "time": 1784341776544,
-        "updated": 1784342561040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1iu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1iu.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000t1iu",
-        "ids": ",us7000t1iu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 3.015,
-        "rms": 0.78,
-        "gap": 203,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 74 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.8715,
-          14.209,
-          41.217
-        ]
-      },
-      "id": "us7000t1iu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "119 km SW of Sarangani, Philippines",
-        "time": 1784341420127,
-        "updated": 1784345957888,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1it",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1it.geojson",
-        "felt": 2,
-        "cdi": 2.5,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 433,
-        "net": "us",
-        "code": "7000t1it",
-        "ids": ",us7000t1it,",
-        "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 69,
-        "dmin": 2.646,
-        "rms": 1.18,
-        "gap": 99,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - 119 km SW of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          124.8574,
-          4.5057,
-          10
-        ]
-      },
-      "id": "us7000t1it"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "99 km WSW of Puerto Madero, Mexico",
-        "time": 1784339341780,
-        "updated": 1784340301040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1im",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1im.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000t1im",
-        "ids": ",us7000t1im,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 60,
-        "dmin": 3.415,
-        "rms": 1.04,
-        "gap": 152,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - 99 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.2679,
-          14.3665,
-          10
-        ]
-      },
-      "id": "us7000t1im"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "79 km WSW of Puerto Madero, Mexico",
-        "time": 1784337067477,
-        "updated": 1784339575040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ii",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ii.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000t1ii",
-        "ids": ",us7000t1ii,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 19,
-        "dmin": 3.188,
-        "rms": 0.73,
-        "gap": 204,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 79 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.0381,
-          14.323,
-          35
-        ]
-      },
-      "id": "us7000t1ii"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "143 km W of Pariaman, Indonesia",
-        "time": 1784335805308,
-        "updated": 1784348589040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ig",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ig.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000t1ig",
-        "ids": ",us7000t1ig,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 2.129,
-        "rms": 0.87,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 143 km W of Pariaman, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          98.8487,
-          -0.4136,
-          46.816
-        ]
-      },
-      "id": "us7000t1ig"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "19 km ENE of Pinedale, Wyoming",
-        "time": 1784335163537,
-        "updated": 1784343513040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1if",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1if.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "us",
-        "code": "7000t1if",
-        "ids": ",us7000t1if,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.171,
-        "rms": 1.17,
-        "gap": 136,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 19 km ENE of Pinedale, Wyoming"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.6336,
-          42.9293,
-          10.42
-        ]
-      },
-      "id": "us7000t1if"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "89 km WSW of Puerto Madero, Mexico",
-        "time": 1784334064699,
-        "updated": 1784342465040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ie",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ie.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000t1ie",
-        "ids": ",us7000t1ie,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 3.324,
-        "rms": 0.97,
-        "gap": 176,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 89 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.1726,
-          14.3751,
-          10
-        ]
-      },
-      "id": "us7000t1ie"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "87 km SW of Puerto Madero, Mexico",
-        "time": 1784332080827,
-        "updated": 1784341945040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1i9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1i9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000t1i9",
-        "ids": ",us7000t1i9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 3.092,
-        "rms": 0.86,
-        "gap": 166,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 87 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9573,
-          14.1324,
-          35
-        ]
-      },
-      "id": "us7000t1i9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "75 km SW of Puerto Madero, Mexico",
-        "time": 1784331310281,
-        "updated": 1784341160040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1i4",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1i4.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000t1i4",
-        "ids": ",us7000t1i4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 3.054,
-        "rms": 0.71,
-        "gap": 158,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 75 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.909,
-          14.2309,
-          35
-        ]
-      },
-      "id": "us7000t1i4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "106 km ESE of Ollagüe, Chile",
-        "time": 1784329151529,
-        "updated": 1784339779040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1hp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1hp.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000t1hp",
-        "ids": ",us7000t1hp,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.48,
-        "rms": 0.76,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 106 km ESE of Ollagüe, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3522,
-          -21.6796,
-          203.556
-        ]
-      },
-      "id": "us7000t1hp"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "89 km SW of Puerto Madero, Mexico",
-        "time": 1784328703803,
-        "updated": 1784339137040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1hk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1hk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000t1hk",
-        "ids": ",us7000t1hk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 3.232,
-        "rms": 1.18,
-        "gap": 187,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 89 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.0919,
-          14.2457,
-          10
-        ]
-      },
-      "id": "us7000t1hk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "60 km W of San Antonio de los Cobres, Argentina",
-        "time": 1784327728122,
-        "updated": 1784334376040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1hg",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1hg.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000t1hg",
-        "ids": ",us7000t1hg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 1.696,
-        "rms": 1.11,
-        "gap": 78,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 60 km W of San Antonio de los Cobres, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9098,
-          -24.1908,
-          188.384
-        ]
-      },
-      "id": "us7000t1hg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "79 km SW of Puerto Madero, Mexico",
-        "time": 1784326386825,
-        "updated": 1784327592040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1hd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1hd.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000t1hd",
-        "ids": ",us7000t1hd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 3.101,
-        "rms": 1.24,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 79 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9584,
-          14.2237,
-          35
-        ]
-      },
-      "id": "us7000t1hd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.86,
-        "place": "79 km N of Cruz Bay, U.S. Virgin Islands",
-        "time": 1784324277410,
-        "updated": 1784331948040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524788",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71524788.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 126,
-        "net": "pr",
-        "code": "71524788",
-        "ids": ",us7000t1hb,pr71524788,",
-        "sources": ",us,pr,",
-        "types": ",origin,phase-data,",
-        "nst": 11,
-        "dmin": 0.6244,
-        "rms": 0.18,
-        "gap": 259,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.9 - 79 km N of Cruz Bay, U.S. Virgin Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -64.7043333333333,
-          19.0481666666667,
-          20.12
-        ]
-      },
-      "id": "pr71524788"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.1,
-        "place": "127 km E of Chalkyitsik, Alaska",
-        "time": 1784323765442,
-        "updated": 1784330142040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1h3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1h3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 148,
-        "net": "us",
-        "code": "7000t1h3",
-        "ids": ",us7000t1h3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 1.041,
-        "rms": 0.76,
-        "gap": 83,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 3.1 - 127 km E of Chalkyitsik, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -140.8563,
-          66.5927,
-          14.36
-        ]
-      },
-      "id": "us7000t1h3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "88 km WSW of Puerto Madero, Mexico",
-        "time": 1784322703876,
-        "updated": 1784324904040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1gz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1gz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000t1gz",
-        "ids": ",us7000t1gz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 3.259,
-        "rms": 1.22,
-        "gap": 204,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 88 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.1146,
-          14.2976,
-          10
-        ]
-      },
-      "id": "us7000t1gz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "8 km WNW of Burla, Russia",
-        "time": 1784322544495,
-        "updated": 1784329392040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1gx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1gx.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000t1gx",
-        "ids": ",us7000t1gx,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 2.661,
-        "rms": 1.19,
-        "gap": 56,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 8 km WNW of Burla, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          78.2015,
-          53.3593,
-          10
-        ]
-      },
-      "id": "us7000t1gx"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "284 km SW of Bluff, New Zealand",
-        "time": 1784316615872,
-        "updated": 1784326128040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1gb",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1gb.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000t1gb",
-        "ids": ",us7000t1gb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 2.233,
-        "rms": 1.21,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 284 km SW of Bluff, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          165.4561,
-          -48.2608,
-          15.31
-        ]
-      },
-      "id": "us7000t1gb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.2,
-        "place": "36 km SE of Jurm, Afghanistan",
-        "time": 1784316016413,
-        "updated": 1784325542040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1g8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1g8.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 271,
-        "net": "us",
-        "code": "7000t1g8",
-        "ids": ",us7000t1g8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 2.054,
-        "rms": 0.79,
-        "gap": 59,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.2 - 36 km SE of Jurm, Afghanistan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          71.066,
-          36.5939,
-          211.309
-        ]
-      },
-      "id": "us7000t1g8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "86 km SW of Puerto Madero, Mexico",
-        "time": 1784315382028,
-        "updated": 1784324091040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1g1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1g1.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000t1g1",
-        "ids": ",us7000t1g1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 141,
-        "dmin": 3.146,
-        "rms": 0.92,
-        "gap": 174,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 86 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.008,
-          14.1918,
-          10
-        ]
-      },
-      "id": "us7000t1g1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "67 km SW of Puerto Madero, Mexico",
-        "time": 1784312803919,
-        "updated": 1784313946040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1fk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1fk.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000t1fk",
-        "ids": ",us7000t1fk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 77,
-        "dmin": 3.094,
-        "rms": 1.11,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 67 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9332,
-          14.3713,
-          10
-        ]
-      },
-      "id": "us7000t1fk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "59 km SSW of Puerto Madero, Mexico",
-        "time": 1784309010902,
-        "updated": 1784310410040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1f6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1f6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000t1f6",
-        "ids": ",us7000t1f6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 169,
-        "dmin": 7.288,
-        "rms": 1.06,
-        "gap": 100,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 59 km SSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.713,
-          14.2633,
-          35.128
-        ]
-      },
-      "id": "us7000t1f6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "72 km SW of Puerto Madero, Mexico",
-        "time": 1784308519287,
-        "updated": 1784309712040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1f0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1f0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000t1f0",
-        "ids": ",us7000t1f0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 7.369,
-        "rms": 0.93,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 72 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9705,
-          14.3448,
-          10
-        ]
-      },
-      "id": "us7000t1f0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.6,
-        "place": "4 km SSW of Tyonek, Alaska",
-        "time": 1784307899716,
-        "updated": 1784342947729,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026obemtt",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026obemtt.geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 104,
-        "net": "ak",
-        "code": "a2026obemtt",
-        "ids": ",aka2026obemtt,",
-        "sources": ",ak,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 56,
-        "dmin": 0.3,
-        "rms": 0.6,
-        "gap": 33,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 2.6 - 4 km SSW of Tyonek, Alaska"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -151.177,
-          61.035,
-          70.2
-        ]
-      },
-      "id": "aka2026obemtt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "78 km WSW of Puerto Madero, Mexico",
-        "time": 1784307818011,
-        "updated": 1784308856040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ey",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ey.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000t1ey",
-        "ids": ",us7000t1ey,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 82,
-        "dmin": 7.411,
-        "rms": 0.93,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 78 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.0323,
-          14.3368,
-          10
-        ]
-      },
-      "id": "us7000t1ey"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "98 km WSW of Puerto Madero, Mexico",
-        "time": 1784307458198,
-        "updated": 1784321081040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1f5",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1f5.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000t1f5",
-        "ids": ",us7000t1f5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.351,
-        "rms": 0.71,
-        "gap": 210,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 98 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.2126,
-          14.2737,
-          10
-        ]
-      },
-      "id": "us7000t1f5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.3,
-        "place": "77 km SW of Puerto Madero, Mexico",
-        "time": 1784306547773,
-        "updated": 1784320167040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1em",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1em.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 284,
-        "net": "us",
-        "code": "7000t1em",
-        "ids": ",us7000t1em,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 3.164,
-        "rms": 1,
-        "gap": 221,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.3 - 77 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.0117,
-          14.3279,
-          10
-        ]
-      },
-      "id": "us7000t1em"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "86 km WSW of Puerto Madero, Mexico",
-        "time": 1784305520183,
-        "updated": 1784319040040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ek",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ek.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000t1ek",
-        "ids": ",us7000t1ek,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 3.289,
-        "rms": 1.05,
-        "gap": 210,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 86 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.1365,
-          14.3695,
-          10
-        ]
-      },
-      "id": "us7000t1ek"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "161 km ESE of Kokopo, Papua New Guinea",
-        "time": 1784305370731,
-        "updated": 1784306416040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ej",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ej.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000t1ej",
-        "ids": ",us7000t1ej,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 6.847,
-        "rms": 1.12,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 161 km ESE of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          153.6477,
-          -4.8148,
-          118.736
-        ]
-      },
-      "id": "us7000t1ej"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "11 km SE of Kiupo, Philippines",
-        "time": 1784304777547,
-        "updated": 1784332084408,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1e8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1e8.geojson",
-        "felt": 3,
-        "cdi": 3.6,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 417,
-        "net": "us",
-        "code": "7000t1e8",
-        "ids": ",us7000t1e8,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 83,
-        "dmin": 1.316,
-        "rms": 1.09,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 11 km SE of Kiupo, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.378,
-          5.7602,
-          79.819
-        ]
-      },
-      "id": "us7000t1e8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "33 km SSW of Puerto Madero, Mexico",
-        "time": 1784304086495,
-        "updated": 1784309133040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ep",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ep.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000t1ep",
-        "ids": ",us7000t1ep,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 207,
-        "dmin": 7.052,
-        "rms": 0.8,
-        "gap": 81,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 33 km SSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.5836,
-          14.4643,
-          64.924
-        ]
-      },
-      "id": "us7000t1ep"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "46 km SW of Puerto Madero, Mexico",
-        "time": 1784304054702,
-        "updated": 1784309324040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1dz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1dz.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000t1dz",
-        "ids": ",us7000t1dz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 147,
-        "dmin": 7.167,
-        "rms": 0.87,
-        "gap": 160,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 46 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.7007,
-          14.4035,
-          73.875
-        ]
-      },
-      "id": "us7000t1dz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "70 km WSW of Puerto Madero, Mexico",
-        "time": 1784303835051,
-        "updated": 1784305527040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1dv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1dv.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000t1dv",
-        "ids": ",us7000t1dv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 57,
-        "dmin": 7.32,
-        "rms": 1.35,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 70 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.0044,
-          14.4311,
-          10
-        ]
-      },
-      "id": "us7000t1dv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "66 km SW of Puerto Madero, Mexico",
-        "time": 1784302238234,
-        "updated": 1784304818040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1du",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1du.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000t1du",
-        "ids": ",us7000t1du,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 90,
-        "dmin": 3.068,
-        "rms": 0.57,
-        "gap": 124,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 66 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9089,
-          14.3476,
-          53.729
-        ]
-      },
-      "id": "us7000t1du"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "90 km SW of Puerto Madero, Mexico",
-        "time": 1784301606868,
-        "updated": 1784317396168,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1cc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1cc.geojson",
-        "felt": 2,
-        "cdi": 3.8,
-        "mmi": 4.178,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 555,
-        "net": "us",
-        "code": "7000t1cc",
-        "ids": ",us7000t1cc,",
-        "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 106,
-        "dmin": 3.232,
-        "rms": 1.39,
-        "gap": 39,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 6.0 - 90 km SW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.0929,
-          14.2369,
-          10
-        ]
-      },
-      "id": "us7000t1cc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "101 km WSW of Puerto Madero, Mexico",
-        "time": 1784301586384,
-        "updated": 1784304173040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1c2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1c2.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000t1c2",
-        "ids": ",us7000t1c2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 214,
-        "dmin": 3.45,
-        "rms": 1.34,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 101 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.2998,
-          14.3986,
-          10
-        ]
-      },
-      "id": "us7000t1c2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "93 km SW of Puerto Madero, Mexico",
-        "time": 1784301295773,
-        "updated": 1784304753833,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1c1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1c1.geojson",
-        "felt": 6,
-        "cdi": 4.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 435,
-        "net": "us",
-        "code": "7000t1c1",
-        "ids": ",us7000t1c1,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
         "nst": 59,
-        "dmin": 7.567,
-        "rms": 1.08,
-        "gap": 150,
+        "dmin": 5.217,
+        "rms": 1.04,
+        "gap": 105,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.3 - 93 km SW of Puerto Madero, Mexico"
+        "title": "M 4.8 - 127 km NNE of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.0992,
-          14.189,
-          10
+          128.5538,
+          2.7477,
+          223.042
         ]
       },
-      "id": "us7000t1c1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 7.3,
-        "place": "58 km WSW of Puerto Madero, Mexico",
-        "time": 1784299719769,
-        "updated": 1784348357635,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1bu.geojson",
-        "felt": 283,
-        "cdi": 5.4,
-        "mmi": 7.017,
-        "alert": "yellow",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 973,
-        "net": "us",
-        "code": "7000t1bu",
-        "ids": ",attibqh8,us7000t1bu,",
-        "sources": ",at,us,",
-        "types": ",dyfi,finite-fault,general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 271,
-        "dmin": 3.153,
-        "rms": 1.23,
-        "gap": 30,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 7.3 - 58 km WSW of Puerto Madero, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9517,
-          14.6043,
-          18.584
-        ]
-      },
-      "id": "us7000t1bu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4,
-        "place": "170 km NE of Lospalos, Timor Leste",
-        "time": 1784295492783,
-        "updated": 1784298170040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1b6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1b6.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 246,
-        "net": "us",
-        "code": "7000t1b6",
-        "ids": ",us7000t1b6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 3.426,
-        "rms": 0.92,
-        "gap": 72,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.0 - 170 km NE of Lospalos, Timor Leste"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.1524,
-          -7.4921,
-          169.721
-        ]
-      },
-      "id": "us7000t1b6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "16 km NW of Kirakira, Solomon Islands",
-        "time": 1784294861447,
-        "updated": 1784296039040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1b3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1b3.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000t1b3",
-        "ids": ",us7000t1b3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 2.047,
-        "rms": 1.01,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 16 km NW of Kirakira, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.8112,
-          -10.3499,
-          66.187
-        ]
-      },
-      "id": "us7000t1b3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "60 km WSW of Aquiles Serdán, Mexico",
-        "time": 1784294434149,
-        "updated": 1784301962074,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ai",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ai.geojson",
-        "felt": 5,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 341,
-        "net": "us",
-        "code": "7000t1ai",
-        "ids": ",us7000t1ai,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 50,
-        "dmin": 3.196,
-        "rms": 0.76,
-        "gap": 201,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 60 km WSW of Aquiles Serdán, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.9865,
-          14.6493,
-          35
-        ]
-      },
-      "id": "us7000t1ai"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "south of the Kermadec Islands",
-        "time": 1784294219268,
-        "updated": 1784295478040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1b0",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1b0.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000t1b0",
-        "ids": ",us7000t1b0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 3.732,
-        "rms": 1.09,
-        "gap": 158,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - south of the Kermadec Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.9086,
-          -32.9894,
-          10
-        ]
-      },
-      "id": "us7000t1b0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.4,
-        "place": "94 km S of Tambolaka, Indonesia",
-        "time": 1784293661554,
-        "updated": 1784316978040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1a9",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1a9.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 298,
-        "net": "us",
-        "code": "7000t1a9",
-        "ids": ",us7000t1a9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 4.888,
-        "rms": 0.69,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.4 - 94 km S of Tambolaka, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.3318,
-          -10.277,
-          37.197
-        ]
-      },
-      "id": "us7000t1a9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 2.56,
-        "place": "10 km SW of Petrolia, CA",
-        "time": 1784291972500,
-        "updated": 1784294597040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397636",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75397636.geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "automatic",
-        "tsunami": 0,
-        "sig": 101,
-        "net": "nc",
-        "code": "75397636",
-        "ids": ",nc75397636,us7000t1a3,",
-        "sources": ",nc,us,",
-        "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 5,
-        "dmin": 0.03617,
-        "rms": 0.03,
-        "gap": 263,
-        "magType": "md",
-        "type": "earthquake",
-        "title": "M 2.6 - 10 km SW of Petrolia, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -124.369499206543,
-          40.2586669921875,
-          16.9400005340576
-        ]
-      },
-      "id": "nc75397636"
+      "id": "us7000t1q4"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "203 km N of Hadibu, Yemen",
-        "time": 1784289674725,
-        "updated": 1784290875040,
+        "place": "85 km SW of Puerto Madero, Mexico",
+        "time": 1784425644332,
+        "updated": 1784426774040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t19u",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t19u.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1q3.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -2507,118 +547,358 @@
         "tsunami": 0,
         "sig": 432,
         "net": "us",
-        "code": "7000t19u",
-        "ids": ",us7000t19u,",
+        "code": "7000t1q3",
+        "ids": ",us7000t1q3,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 118,
-        "dmin": 9.45,
-        "rms": 0.88,
-        "gap": 46,
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 60,
+        "dmin": 3.052,
+        "rms": 1.01,
+        "gap": 142,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 203 km N of Hadibu, Yemen"
+        "title": "M 5.3 - 85 km SW of Puerto Madero, Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.1453,
-          14.4873,
+          -92.9167,
+          14.1155,
           10
         ]
       },
-      "id": "us7000t19u"
+      "id": "us7000t1q3"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "206 km N of Hadibu, Yemen",
-        "time": 1784288919385,
-        "updated": 1784290056040,
+        "mag": 4.1,
+        "place": "281 km N of Ama, Japan",
+        "time": 1784425205933,
+        "updated": 1784425907040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t19p",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t19p.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1q1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1q1.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 259,
         "net": "us",
-        "code": "7000t19p",
-        "ids": ",us7000t19p,",
+        "code": "7000t1q1",
+        "ids": ",us7000t1q1,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 12.085,
-        "rms": 0.92,
-        "gap": 113,
+        "nst": 42,
+        "dmin": 4.327,
+        "rms": 0.72,
+        "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 206 km N of Hadibu, Yemen"
+        "title": "M 4.1 - 281 km N of Ama, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          54.0877,
-          14.5147,
-          10
+          133.4192,
+          38.6177,
+          459.817
         ]
       },
-      "id": "us7000t19p"
+      "id": "us7000t1q1"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 2.58,
-        "place": "10 km ESE of Burney, CA",
-        "time": 1784282928230,
-        "updated": 1784293766844,
+        "mag": 5.3,
+        "place": "190 km SSE of Vilyuchinsk, Russia",
+        "time": 1784421579917,
+        "updated": 1784422600040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75397611",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75397611.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1py",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1py.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "7000t1py",
+        "ids": ",us7000t1py,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 2.088,
+        "rms": 1.69,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - 190 km SSE of Vilyuchinsk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.6116,
+          51.3859,
+          10
+        ]
+      },
+      "id": "us7000t1py"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.82,
+        "place": "7 km ENE of Ensenada, B.C., MX",
+        "time": 1784421444090,
+        "updated": 1784435355040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci40657786",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40657786.geojson",
+        "felt": 11,
+        "cdi": 3.3,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 126,
+        "net": "ci",
+        "code": "40657786",
+        "ids": ",ci40657786,us7000t1pv,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 15,
+        "dmin": 0.09945,
+        "rms": 0.21,
+        "gap": 71,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.8 - 7 km ENE of Ensenada, B.C., MX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.550833333333,
+          31.8913333333333,
+          11.29
+        ]
+      },
+      "id": "ci40657786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "63 km WSW of Puerto Madero, Mexico",
+        "time": 1784421230972,
+        "updated": 1784434519040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1pu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1pu.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t1pu",
+        "ids": ",us7000t1pu,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 41,
+        "dmin": 3.186,
+        "rms": 1.06,
+        "gap": 163,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 63 km WSW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9917,
+          14.5808,
+          35
+        ]
+      },
+      "id": "us7000t1pu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.93,
+        "place": "76 km NNW of Charlotte Amalie, U.S. Virgin Islands",
+        "time": 1784420867640,
+        "updated": 1784421642310,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524913",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71524913.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 132,
+        "net": "pr",
+        "code": "71524913",
+        "ids": ",pr71524913,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": 0.6739,
+        "rms": 0.22,
+        "gap": 241,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 76 km NNW of Charlotte Amalie, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.0758333333333,
+          19.0203333333333,
+          20.45
+        ]
+      },
+      "id": "pr71524913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.5,
+        "place": "12 km ENE of San Martin, CA",
+        "time": 1784418626270,
+        "updated": 1784427447290,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75398646",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75398646.geojson",
         "felt": 1,
         "cdi": 2,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 103,
+        "sig": 96,
         "net": "nc",
-        "code": "75397611",
-        "ids": ",nc75397611,",
+        "code": "75398646",
+        "ids": ",nc75398646,",
         "sources": ",nc,",
-        "types": ",dyfi,focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 34,
-        "dmin": 0.07458,
-        "rms": 0.12,
-        "gap": 37,
+        "types": ",dyfi,nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 4,
+        "dmin": 0.02532,
+        "rms": 0,
+        "gap": 181,
         "magType": "md",
         "type": "earthquake",
-        "title": "M 2.6 - 10 km ESE of Burney, CA"
+        "title": "M 2.5 - 12 km ENE of San Martin, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.548164367676,
-          40.8508338928223,
-          13.8999996185303
+          -121.474502563477,
+          37.1113319396973,
+          22.6399993896484
         ]
       },
-      "id": "nc75397611"
+      "id": "nc75398646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "39 km WSW of Brisas Barra de Suchiate, Mexico",
+        "time": 1784417881171,
+        "updated": 1784428555040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1pk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1pk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000t1pk",
+        "ids": ",us7000t1pk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 2.715,
+        "rms": 1.3,
+        "gap": 171,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 39 km WSW of Brisas Barra de Suchiate, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.5399,
+          14.3539,
+          35
+        ]
+      },
+      "id": "us7000t1pk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "80 km SW of Masachapa, Nicaragua",
+        "time": 1784417480036,
+        "updated": 1784431930040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ph",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ph.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000t1ph",
+        "ids": ",us7000t1ph,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 69,
+        "dmin": 1.821,
+        "rms": 0.8,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 80 km SW of Masachapa, Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.1133,
+          11.3596,
+          25.777
+        ]
+      },
+      "id": "us7000t1ph"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "72 km N of Claveria, Philippines",
-        "time": 1784281251245,
-        "updated": 1784293642040,
+        "place": "118 km WSW of Puerto Madero, Mexico",
+        "time": 1784414964101,
+        "updated": 1784421512040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t19a",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t19a.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1p8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1p8.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
@@ -2627,35 +907,995 @@
         "tsunami": 0,
         "sig": 326,
         "net": "us",
-        "code": "7000t19a",
-        "ids": ",us7000t19a,",
+        "code": "7000t1p8",
+        "ids": ",us7000t1p8,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 3.536,
-        "rms": 0.85,
-        "gap": 122,
+        "nst": 54,
+        "dmin": 3.549,
+        "rms": 1.16,
+        "gap": 184,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 72 km N of Claveria, Philippines"
+        "title": "M 4.6 - 118 km WSW of Puerto Madero, Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.0461,
-          19.2636,
-          37.589
+          -93.4181,
+          14.2711,
+          10
         ]
       },
-      "id": "us7000t19a"
+      "id": "us7000t1p8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "4 km NE of Mnogoudobnoye, Russia",
+        "time": 1784411697555,
+        "updated": 1784419940040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1nw",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1nw.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000t1nw",
+        "ids": ",us7000t1nw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 0.8,
+        "rms": 0.6,
+        "gap": 55,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 4 km NE of Mnogoudobnoye, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.5101,
+          43.4944,
+          502.747
+        ]
+      },
+      "id": "us7000t1nw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.04,
+        "place": "60 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "time": 1784411604760,
+        "updated": 1784419263040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524908",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71524908.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 142,
+        "net": "pr",
+        "code": "71524908",
+        "ids": ",us7000t1p5,pr71524908,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 4,
+        "dmin": 0.4484,
+        "rms": 0.03,
+        "gap": 307,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.0 - 60 km NNE of Cruz Bay, U.S. Virgin Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6695,
+          18.8685,
+          23.99
+        ]
+      },
+      "id": "pr71524908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "47 km SW of Puerto Madero, Mexico",
+        "time": 1784410529338,
+        "updated": 1784411679040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1nr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1nr.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t1nr",
+        "ids": ",us7000t1nr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 2.912,
+        "rms": 1.02,
+        "gap": 186,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 47 km SW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7343,
+          14.422,
+          35
+        ]
+      },
+      "id": "us7000t1nr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Scotia Sea",
+        "time": 1784404237215,
+        "updated": 1784411755760,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ng",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ng.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.598,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000t1ng",
+        "ids": ",us7000t1ng,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 61,
+        "dmin": 7.222,
+        "rms": 0.98,
+        "gap": 64,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Scotia Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0559,
+          -60.7066,
+          10
+        ]
+      },
+      "id": "us7000t1ng"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "72 km SW of Puerto Madero, Mexico",
+        "time": 1784395585879,
+        "updated": 1784403164296,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1n5",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1n5.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 4.107,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 500,
+        "net": "us",
+        "code": "7000t1n5",
+        "ids": ",us7000t1n5,",
+        "sources": ",us,",
+        "types": ",losspager,origin,phase-data,shakemap,",
+        "nst": 84,
+        "dmin": 3.027,
+        "rms": 0.86,
+        "gap": 141,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 72 km SW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.8805,
+          14.2392,
+          10
+        ]
+      },
+      "id": "us7000t1n5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "South Sandwich Islands region",
+        "time": 1784393854133,
+        "updated": 1784397416040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1n0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1n0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000t1n0",
+        "ids": ",us7000t1n0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 79,
+        "dmin": 7.625,
+        "rms": 0.67,
+        "gap": 65,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.2427,
+          -59.4387,
+          122.006
+        ]
+      },
+      "id": "us7000t1n0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "76 km SW of Puerto Madero, Mexico",
+        "time": 1784393757788,
+        "updated": 1784395828040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1mz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1mz.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000t1mz",
+        "ids": ",us7000t1mz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 124,
+        "dmin": 3.064,
+        "rms": 0.79,
+        "gap": 183,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 76 km SW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9189,
+          14.2321,
+          10
+        ]
+      },
+      "id": "us7000t1mz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "149 km S of George Town, Cayman Islands",
+        "time": 1784390924116,
+        "updated": 1784396591171,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1mu",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1mu.geojson",
+        "felt": 3,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 401,
+        "net": "us",
+        "code": "7000t1mu",
+        "ids": ",us7000t1mu,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 194,
+        "dmin": 3.823,
+        "rms": 0.74,
+        "gap": 54,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 149 km S of George Town, Cayman Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5431,
+          17.9439,
+          10
+        ]
+      },
+      "id": "us7000t1mu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.91,
+        "place": "27 km NW of Rincón, Puerto Rico",
+        "time": 1784389676500,
+        "updated": 1784392302040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524858",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71524858.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 130,
+        "net": "pr",
+        "code": "71524858",
+        "ids": ",us7000t1mr,pr71524858,",
+        "sources": ",us,pr,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.3331,
+        "rms": 0.27,
+        "gap": 305,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.9 - 27 km NW of Rincón, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.462,
+          18.4775,
+          18.53
+        ]
+      },
+      "id": "pr71524858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.47,
+        "place": "12 km SE of Pāhala, Hawaii",
+        "time": 1784383808080,
+        "updated": 1784384011020,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75003807",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75003807.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 94,
+        "net": "hv",
+        "code": "75003807",
+        "ids": ",hv75003807,",
+        "sources": ",hv,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.07183,
+        "rms": 0.109999999,
+        "gap": 234,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.5 - 12 km SE of Pāhala, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.390670776367,
+          19.1308326721191,
+          40.9599990844727
+        ]
+      },
+      "id": "hv75003807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "134 km SW of Puerto Madero, Mexico",
+        "time": 1784381317704,
+        "updated": 1784390191040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1m2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1m2.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000t1m2",
+        "ids": ",us7000t1m2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 65,
+        "dmin": 3.547,
+        "rms": 0.86,
+        "gap": 220,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 134 km SW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4317,
+          14.0152,
+          10
+        ]
+      },
+      "id": "us7000t1m2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.83,
+        "place": "70 km NNE of Vieques, Puerto Rico",
+        "time": 1784381271770,
+        "updated": 1784383037050,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524848",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71524848.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 123,
+        "net": "pr",
+        "code": "71524848",
+        "ids": ",pr71524848,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 5,
+        "dmin": 0.7244,
+        "rms": 0.2,
+        "gap": 232,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.8 - 70 km NNE of Vieques, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.5345,
+          18.995,
+          6.97
+        ]
+      },
+      "id": "pr71524848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "10 km E of El Bajío, Mexico",
+        "time": 1784380475776,
+        "updated": 1784389577040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1m0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1m0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t1m0",
+        "ids": ",us7000t1m0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 5.786,
+        "rms": 0.97,
+        "gap": 155,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 10 km E of El Bajío, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9356,
+          16.8793,
+          116.262
+        ]
+      },
+      "id": "us7000t1m0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "southern East Pacific Rise",
+        "time": 1784373177724,
+        "updated": 1784374536040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1ld",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1ld.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000t1ld",
+        "ids": ",us7000t1ld,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 42.241,
+        "rms": 0.88,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - southern East Pacific Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1102,
+          -24.3838,
+          10
+        ]
+      },
+      "id": "us7000t1ld"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "109 km ENE of Khorugh, Tajikistan",
+        "time": 1784370979521,
+        "updated": 1784371605040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1l8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1l8.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000t1l8",
+        "ids": ",us7000t1l8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 0.425,
+        "rms": 0.8,
+        "gap": 88,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 109 km ENE of Khorugh, Tajikistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6745,
+          37.9146,
+          136.85
+        ]
+      },
+      "id": "us7000t1l8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "102 km SSE of Akhiok, Alaska",
+        "time": 1784368854382,
+        "updated": 1784369584451,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ocmjtm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ocmjtm.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.607,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "ak",
+        "code": "a2026ocmjtm",
+        "ids": ",us7000t1l3,aka2026ocmjtm,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 147,
+        "dmin": 1.1,
+        "rms": 0.6,
+        "gap": 175,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.0 - 102 km SSE of Akhiok, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.294,
+          56.159,
+          23.9
+        ]
+      },
+      "id": "aka2026ocmjtm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "69 km SW of Puerto Madero, Mexico",
+        "time": 1784368762033,
+        "updated": 1784370392040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1l4",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1l4.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000t1l4",
+        "ids": ",us7000t1l4,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 38,
+        "dmin": 3.072,
+        "rms": 0.64,
+        "gap": 166,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.2 - 69 km SW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9174,
+          14.3207,
+          44.887
+        ]
+      },
+      "id": "us7000t1l4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "58 km SW of Brisas Barra de Suchiate, Mexico",
+        "time": 1784368293269,
+        "updated": 1784372943040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1l0",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1l0.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000t1l0",
+        "ids": ",us7000t1l0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 2.711,
+        "rms": 0.38,
+        "gap": 188,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 58 km SW of Brisas Barra de Suchiate, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.564,
+          14.1224,
+          35
+        ]
+      },
+      "id": "us7000t1l0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.26,
+        "place": "50 km N of Loíza, Puerto Rico",
+        "time": 1784368161690,
+        "updated": 1784371016450,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71524833",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71524833.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 164,
+        "net": "pr",
+        "code": "71524833",
+        "ids": ",pr71524833,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 6,
+        "dmin": 0.6039,
+        "rms": 0.45,
+        "gap": 233,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 3.3 - 50 km N of Loíza, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.8885,
+          18.887,
+          40.1
+        ]
+      },
+      "id": "pr71524833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "47 km WSW of Aquiles Serdán, Mexico",
+        "time": 1784367261347,
+        "updated": 1784372288040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1kx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1kx.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t1kx",
+        "ids": ",us7000t1kx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 3.158,
+        "rms": 0.5,
+        "gap": 142,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 47 km WSW of Aquiles Serdán, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.9169,
+          14.761,
+          39.854
+        ]
+      },
+      "id": "us7000t1kx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.3,
+        "place": "25 km N of Gázi, Greece",
+        "time": 1784365449589,
+        "updated": 1784366552040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1kn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1kn.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 284,
+        "net": "us",
+        "code": "7000t1kn",
+        "ids": ",us7000t1kn,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.287,
+        "rms": 1.01,
+        "gap": 87,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.3 - 25 km N of Gázi, Greece"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.029,
+          35.5522,
+          18.491
+        ]
+      },
+      "id": "us7000t1kn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "131 km SW of Puerto Madero, Mexico",
+        "time": 1784364840203,
+        "updated": 1784366279040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1km",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1km.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 271,
+        "net": "us",
+        "code": "7000t1km",
+        "ids": ",us7000t1km,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 68,
+        "dmin": 3.422,
+        "rms": 0.71,
+        "gap": 207,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.2 - 131 km SW of Puerto Madero, Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3043,
+          13.8966,
+          40.932
+        ]
+      },
+      "id": "us7000t1km"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "136 km NW of Mosquera, Colombia",
+        "time": 1784364027357,
+        "updated": 1784365138040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1kk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000t1kk.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "7000t1kk",
+        "ids": ",us7000t1kk,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 76,
+        "dmin": 2.088,
+        "rms": 0.71,
+        "gap": 140,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 136 km NW of Mosquera, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3719,
+          3.3274,
+          10
+        ]
+      },
+      "id": "us7000t1kk"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.1,
+        "place": "116 km NW of Yakutat, Alaska",
+        "time": 1784363912180,
+        "updated": 1784365711040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ocjqde",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026ocjqde.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.168,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 148,
+        "net": "ak",
+        "code": "a2026ocjqde",
+        "ids": ",us7000t1ki,aka2026ocjqde,",
+        "sources": ",us,ak,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 39,
+        "dmin": 0.4,
+        "rms": 0.9,
+        "gap": 127,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 3.1 - 116 km NW of Yakutat, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.24,
+          60.272,
+          3
+        ]
+      },
+      "id": "aka2026ocjqde"
     }
   ],
   "bbox": [
-    -178.1149,
-    -48.2608,
-    9.2472,
-    165.4561,
-    66.5927,
-    211.309
+    -155.39067077637,
+    -60.7066,
+    2.25,
+    159.6116,
+    60.272,
+    502.747
   ]
 }
